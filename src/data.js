@@ -23,5 +23,7 @@ export const skills = [
     "C",
     "Python",
     "Bootstrap",
-    "HTML/CSS"
+    "Tailwind",
+    "HTML/CSS",
+    "MySQL"
 ];
