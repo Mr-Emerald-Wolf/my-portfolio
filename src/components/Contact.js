@@ -68,8 +68,7 @@ export default function Contact() {
                             Contact Me
                         </h2>
                         <p className="leading-relaxed mb-5 text-sky-700 dark:text-sky-200">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-                            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+                            If you want to reach out to me drop a message below. 
                         </p>
                         <div className="relative mb-4">
                             <label htmlFor="name" className="leading-7 text-sm text-gray-900 dark:text-gray-400">
@@ -79,7 +78,7 @@ export default function Contact() {
                                 type="text"
                                 id="name"
                                 name="name"
-                                className="w-full dark:bg-gray-800 rounded border border-gray-700 dark:focus:border-sky-500 focus:ring-2 dark:focus:ring-sky-900 text-base outline-none dark:text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                                className="w-full bg-gray-50  dark:bg-gray-800 rounded border border-gray-700 dark:focus:border-sky-500 focus:ring-2 dark:focus:ring-sky-900 text-base outline-none dark:text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                                 onChange={(e) => setName(e.target.value)}
                             />
                         </div>
@@ -91,7 +90,7 @@ export default function Contact() {
                                 type="email"
                                 id="email"
                                 name="email"
-                                className="w-full dark:bg-gray-800 rounded border border-gray-700 dark:focus:border-sky-500 focus:ring-2 dark:focus:ring-sky-900 text-base outline-none dark:text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                                className="w-full bg-gray-50  dark:bg-gray-800 rounded border border-gray-700 dark:focus:border-sky-500 focus:ring-2 dark:focus:ring-sky-900 text-base outline-none dark:text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                                 onChange={(e) => setEmail(e.target.value)}
                            />
                         </div>
@@ -104,7 +103,7 @@ export default function Contact() {
                             <textarea
                                 id="message"
                                 name="message"
-                                className="w-full dark:bg-gray-800 rounded border border-gray-700 dark:focus:border-sky-500 focus:ring-2 dark:focus:ring-sky-900 h-32 text-base outline-none dark:text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                                className="w-full bg-gray-50 dark:bg-gray-800 rounded border border-gray-700 dark:focus:border-sky-500 focus:ring-2 dark:focus:ring-sky-900 h-32 text-base outline-none dark:text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                                 onChange={(e) => setMessage(e.target.value)}
                             />
                         </div>
