@@ -17,7 +17,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="p-1 md:w-1/2">
-                        <img className='mx-auto w-3/4 md:w-2/3 lg:w-1/2' src="./img/profile.jpg" alt="Profile" />
+                        <img className='mx-auto my-auto w-3/4 md:w-2/3 lg:w-1/2' src="./img/profile.jpg" alt="Profile" />
                     </div>
                 </div>
             </section>
