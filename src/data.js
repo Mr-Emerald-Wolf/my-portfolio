@@ -20,7 +20,7 @@ export const projects = [
 export const skills = [
     "React",
     "Javascript",
-    "C",
+    "C,C++",
     "Python",
     "Bootstrap",
     "Tailwind",
