@@ -6,7 +6,7 @@ export class ProjectItem extends Component {
       let project = this.props.data;
     return (
         <>
-        <div className=' w-full md:w-3/4 xl:w-max mx-auto'>
+        <div className=''>
           <a
                 href={project.link}
                 key={project.image}

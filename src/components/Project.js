@@ -16,7 +16,7 @@ export default function Projects() {
                         Web Applications created by me. 
                     </p>
                 </div>
-                <div className="flex flex-col md:flex-row gap-4">
+                <div className="grid lg:grid-cols-2 grid-flow-row gap-4">
                     {projects.map((project) => {
                         return (<ProjectItem data={project} key={project.link}/>)
                     })}

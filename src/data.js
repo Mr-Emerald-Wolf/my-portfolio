@@ -15,6 +15,17 @@ export const projects = [
     image: "./img/Marstoned.png",
     link: "https://mr-emerald-wolf.github.io/marstoned/",
   },
+  {
+    title: "Comparo",
+    subtitle: "Get the right price",
+    description:
+      "An app which makes online shopping a step easier to navigate.",
+    image: "./img/Comparo.png",
+    link: "https://comparo.netlify.app",
+  },
+  
+  
+  
   
 ];
 export const skills = [
