@@ -23,6 +23,14 @@ export const projects = [
     image: "./img/Comparo.png",
     link: "https://comparo.netlify.app",
   },
+  {
+    title: "MedTrack",
+    subtitle: "YOUR WELLBEING PARTNER",
+    description:
+      "An app which helps you keep track of your prescriptions. Won best UI/UX design and Auth0 implementation in ISTE-Technica 2022",
+    image: "./img/medtrack.png",
+    link: "https://medtrack.netlify.app",
+  },
   
   
   
