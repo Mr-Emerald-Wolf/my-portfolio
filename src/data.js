@@ -19,7 +19,7 @@ export const projects = [
     title: "Comparo",
     subtitle: "Get the right price",
     description:
-      "An app which makes online shopping a step easier to navigate.",
+      "An app which makes online shopping a step easier to navigate. Search to find the best price. Participated in Devspace 2022 Hackathon.",
     image: "./img/Comparo.png",
     link: "https://comparo.netlify.app",
   },
