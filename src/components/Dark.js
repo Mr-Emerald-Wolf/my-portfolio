@@ -2,15 +2,19 @@ import { useState } from 'react'
 import { Switch } from '@headlessui/react'
 
 export default function Dark() {
-  const [enabled, setEnabled] = useState(localStorage.theme === "light" ? true : false)
-  console.log(localStorage.theme);
+  const [enabled, setEnabled] = useState(true)
+  if (!enabled) {
+    document.documentElement.classList.remove('dark')
+  } else {
+    document.documentElement.classList.add('dark')   
+  }
+  //console.log(localStorage.theme);
   let switchMode = () => {
     setEnabled(!enabled);
-    enabled ? localStorage.theme = 'light' : localStorage.theme = 'dark'
-    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-      document.documentElement.classList.add('dark')   
-    } else {
+    if (!enabled) {
       document.documentElement.classList.remove('dark')
+    } else {
+      document.documentElement.classList.add('dark')   
     }
     
   }
