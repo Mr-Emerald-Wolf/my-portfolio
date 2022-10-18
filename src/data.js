@@ -31,7 +31,14 @@ export const projects = [
     image: "./img/medtrack.png",
     link: "https://medtrack.netlify.app",
   },
-  
+  {
+    title: "EdLens",
+    subtitle: "A web based Augmented Reality Platform. Participated in DevJams'22.",
+    description:
+      "Edlens allows users to upload a screenshot or picture. The user can then generate the corresponding AR model of the object, which is found by the ocr.",
+    image: "./img/edlens.png",
+    link: "https://edlens.netlify.app",
+  },
   
   
   
@@ -41,8 +48,8 @@ export const skills = [
     "Javascript",
     "C/C++",
     "Python",
-    "Bootstrap",
-    "Tailwind",
+    "Bootstrap, Tailwind",
+    "MongoDB",
     "HTML/CSS",
-    "MySQL"
+    "NodeJS"
 ];

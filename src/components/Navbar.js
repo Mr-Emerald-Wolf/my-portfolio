@@ -9,7 +9,7 @@ export default function Navbar({ fixed }) {
     <>
       <header className="bg-slate-100 dark:bg-slate-900 dark:text-sky-100 p-1 z-20 top-0 md:sticky">
                     <div className="container flex justify-between mx-auto">
-                        <a rel="noopener noreferrer" href="#landing" aria-label="Back to homepage" className="flex items-center p-1 font-Rosarivo text-2xl">
+                        <a rel="noopener noreferrer" href="#landing" aria-label="Back to homepage" className="flex items-center p-1 text-2xl">
                             Shivam Sharma
                         </a>
                         <div className="flex flex-grow items-center justify-end"><Dark/></div>       
