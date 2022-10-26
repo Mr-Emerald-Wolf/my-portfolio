@@ -39,6 +39,14 @@ export const projects = [
     image: "./img/edlens.png",
     link: "https://edlens.netlify.app",
   },
+  {
+    title: "ShopCart",
+    subtitle: "E-Commerce app based on PERN Stack. Full Stack Application with CRUD operations.",
+    description:
+      "Search for the best products today. Hosted on Netlify (Front End), Fly.io (ExpressJS App), Railways (Postgres Database).",
+    image: "./img/shopcart.png",
+    link: "https://theshopcart.netlify.app/",
+  },
   
   
   
