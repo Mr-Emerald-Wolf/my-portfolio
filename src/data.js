@@ -52,12 +52,12 @@ export const projects = [
   
 ];
 export const skills = [
-    "React",
-    "Javascript",
-    "C/C++",
-    "Python",
+    "MERN Stack",
+    "Go",
+    "Sequelize",
+    "NodeJS",
     "Bootstrap, Tailwind",
-    "MongoDB",
+    "PostgreSQL",
     "HTML/CSS",
-    "NodeJS"
+    "Python"
 ];
